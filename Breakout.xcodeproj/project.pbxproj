@@ -21,6 +21,9 @@
 		F5A9265218DE10EC001FF1F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A9263418DE10EC001FF1F9 /* UIKit.framework */; };
 		F5A9265A18DE10EC001FF1F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A9265818DE10EC001FF1F9 /* InfoPlist.strings */; };
 		F5A9265C18DE10EC001FF1F9 /* BreakoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9265B18DE10EC001FF1F9 /* BreakoutTests.m */; };
+		F5A9266718DE1973001FF1F9 /* PaddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9266618DE1973001FF1F9 /* PaddleView.m */; };
+		F5A9266A18DE1D6A001FF1F9 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9266918DE1D6A001FF1F9 /* BallView.m */; };
+		F5A9266D18DE3E12001FF1F9 /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9266C18DE3E12001FF1F9 /* BlockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		F5A9265718DE10EC001FF1F9 /* BreakoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreakoutTests-Info.plist"; sourceTree = "<group>"; };
 		F5A9265918DE10EC001FF1F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5A9265B18DE10EC001FF1F9 /* BreakoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutTests.m; sourceTree = "<group>"; };
+		F5A9266518DE1973001FF1F9 /* PaddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleView.h; sourceTree = "<group>"; };
+		F5A9266618DE1973001FF1F9 /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddleView.m; sourceTree = "<group>"; };
+		F5A9266818DE1D6A001FF1F9 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		F5A9266918DE1D6A001FF1F9 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		F5A9266B18DE3E12001FF1F9 /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		F5A9266C18DE3E12001FF1F9 /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				F5A9264618DE10EC001FF1F9 /* ViewController.m */,
 				F5A9264818DE10EC001FF1F9 /* Images.xcassets */,
 				F5A9263718DE10EC001FF1F9 /* Supporting Files */,
+				F5A9266518DE1973001FF1F9 /* PaddleView.h */,
+				F5A9266618DE1973001FF1F9 /* PaddleView.m */,
+				F5A9266818DE1D6A001FF1F9 /* BallView.h */,
+				F5A9266918DE1D6A001FF1F9 /* BallView.m */,
+				F5A9266B18DE3E12001FF1F9 /* BlockView.h */,
+				F5A9266C18DE3E12001FF1F9 /* BlockView.m */,
 			);
 			path = Breakout;
 			sourceTree = "<group>";
@@ -249,7 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A9266D18DE3E12001FF1F9 /* BlockView.m in Sources */,
+				F5A9266718DE1973001FF1F9 /* PaddleView.m in Sources */,
 				F5A9264718DE10EC001FF1F9 /* ViewController.m in Sources */,
+				F5A9266A18DE1D6A001FF1F9 /* BallView.m in Sources */,
 				F5A9264118DE10EC001FF1F9 /* AppDelegate.m in Sources */,
 				F5A9263D18DE10EC001FF1F9 /* main.m in Sources */,
 			);
